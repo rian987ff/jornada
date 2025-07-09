@@ -11,37 +11,38 @@ import {
   ExternalLink,
   Sparkles,
   Dna,
+  Sprout,
 } from "lucide-react"
 import Link from "next/link"
 
 // Configurações editáveis - altere aqui suas informações
 const PROFILE_CONFIG = {
   // Informações do perfil
-  name: "Seu Nome",
+  name: "Asha",
   verified: true, // true para mostrar o ícone de verificação
-  bio: "Facilitador de transformação digital e experiências conscientes. Criando pontes entre tecnologia e desenvolvimento pessoal através de projetos que impactam vidas.",
-  avatar: "/placeholder.svg?height=120&width=120", // URL da sua foto de perfil
+  bio: "Terapeuta integrativa, Guardiã de medicinas ancestrais e canalizadora da Cosmogenia — filosofia de vida, método terapêutico e caminho iniciático.",
+  avatar: "/foto-LT.webp", // URL da sua foto de perfil
 
   // Links ativos - apenas 3 inicialmente
   links: [
     {
-      title: "Jornada de Autoconhecimento",
+      title: "Jornada Mantras de Ativação",
       url: "https://www.cosmogenia.org/mantras",
       icon: "sparkles",
-      description: "Transformação através da vibração consciente",
+      description: "Mantras, meditações e práticas em 12 semanas de reconexão. Comece sua jornada.",
     },
     {
-      title: "Website Pessoal",
+      title: "Atendimentos Individuais",
       url: "https://seusite.com",
-      icon: "globe",
-      description: "Meu portfólio e projetos",
+      icon: "sprout",
+      description: "Acompanhamentos terapêuticos e vivências personalizadas. Esteja em contato.",
     },
-    {
-      title: "LinkedIn",
-      url: "https://linkedin.com/in/seuusuario",
-      icon: "linkedin",
-      description: "Rede profissional",
-    },
+    // {
+    //   title: "LinkedIn",
+    //   url: "https://linkedin.com/in/seuusuario",
+    //   icon: "linkedin",
+    //   description: "Rede profissional",
+    // },
   ],
 
   // Links ocultos - descomente para ativar
@@ -128,6 +129,8 @@ function LinkIcon({ iconName, className = "w-5 h-5" }: { iconName: string; class
     external: ExternalLink,
     sparkles: Sparkles,
     dna: Dna,
+    spiral: SpiralIcon,
+    sprout: Sprout,
   }
 
   const IconComponent = icons[iconName as keyof typeof icons] || Globe
@@ -296,7 +299,7 @@ export default function LinkTreePage() {
                 <div className="w-2 h-2 rounded-full bg-orange-300 animate-pulse delay-300"></div>
                 <div className="w-2 h-2 rounded-full bg-amber-300 animate-pulse delay-700"></div>
               </div>
-              <p className="text-xs text-earth-500 mt-2 italic">Mais links em breve...</p>
+              <p className="text-xs text-earth-500 mt-2 italic">Em breve, novos caminhos por aqui.</p>
             </div>
           </CardContent>
         </Card>
