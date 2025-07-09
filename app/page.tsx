@@ -26,7 +26,7 @@ const PROFILE_CONFIG = {
   links: [
     {
       title: "Jornada de Autoconhecimento",
-      url: "/jornada",
+      url: "https://www.cosmogenia.org/mantras",
       icon: "sparkles",
       description: "Transformação através da vibração consciente",
     },
