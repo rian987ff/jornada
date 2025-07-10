@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
@@ -495,18 +496,18 @@ export default function JornadaMantrasLanding() {
             </p>
 
             <div className="mb-8 sm:mb-12 px-4">
-              <a
-                href="https://wa.me/5547997554304?text=Oi%2C+Asha.+Estou+pronto(a)+para+iniciar+a+Jornada+dos+Mantras.+Como+confirmo+minha+inscri%C3%A7%C3%A3o%3F"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Button
+                size="lg"
+                className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
+                onClick={() => {
+                  const section = document.getElementById('como-funciona');
+                  if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
               >
-                <Button
-                  size="lg"
-                  className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
-                >
-                  Quero começar minha jornada
-                </Button>
-              </a>
+                Quero começar minha jornada
+              </Button>
             </div>
 
             <div className="flex justify-center"></div>
@@ -620,7 +621,7 @@ export default function JornadaMantrasLanding() {
       </section>
 
       {/* Como Funciona */}
-      <section className="py-12 sm:py-16 md:py-24 bg-white">
+      <section id="como-funciona" className="py-12 sm:py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-earth-900 mb-4 sm:mb-6">
