@@ -495,12 +495,18 @@ export default function JornadaMantrasLanding() {
             </p>
 
             <div className="mb-8 sm:mb-12 px-4">
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
+              <a
+                href="https://wa.me/5547997554304?text=Oi%2C+Asha.+Estou+pronto(a)+para+iniciar+a+Jornada+dos+Mantras.+Como+confirmo+minha+inscri%C3%A7%C3%A3o%3F"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Quero começar minha jornada
-              </Button>
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
+                >
+                  Quero começar minha jornada
+                </Button>
+              </a>
             </div>
 
             <div className="flex justify-center"></div>
@@ -753,15 +759,21 @@ export default function JornadaMantrasLanding() {
                 ))}
               </div>
 
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 sm:px-12 py-3 sm:py-4 text-lg sm:text-xl rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
+              <a
+                href="https://wa.me/5547997554304?text=Oi%2C+Asha.+Estou+pronto(a)+para+iniciar+a+Jornada+dos+Mantras.+Como+confirmo+minha+inscri%C3%A7%C3%A3o%3F"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Quero começar minha jornada
-              </Button>
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 sm:px-12 py-3 sm:py-4 text-lg sm:text-xl rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 w-full sm:w-auto"
+                >
+                  Quero começar minha jornada
+                </Button>
+              </a>
 
               <p className="text-xs sm:text-sm text-earth-600 mt-4">
-                Acesso liberado imediatamente após a confirmação do pagamento
+                Acesso liberado imediatamente após a confirmação da inscrição.
               </p>
             </div>
           </div>

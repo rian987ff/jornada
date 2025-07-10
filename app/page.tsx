@@ -29,11 +29,11 @@ const PROFILE_CONFIG = {
       title: "Jornada Mantras de Ativação",
       url: "https://www.cosmogenia.org/mantras",
       icon: "sparkles",
-      description: "Mantras, meditações e práticas em 12 semanas de reconexão. Comece sua jornada.",
+      description: "Mantras, meditações e práticas em 6 semanas de reconexão. Comece sua jornada.",
     },
     {
       title: "Atendimentos Individuais",
-      url: "https://seusite.com",
+      url: "https://wa.me/5547997554304?text=Oi%2C+Asha.+Tenho+interesse+em+um+atendimento+individual+e+gostaria+de+entender+como+funciona.",
       icon: "sprout",
       description: "Acompanhamentos terapêuticos e vivências personalizadas. Esteja em contato.",
     },
