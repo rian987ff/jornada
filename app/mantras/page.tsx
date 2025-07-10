@@ -621,7 +621,7 @@ export default function JornadaMantrasLanding() {
               Como <span className="text-amber-700">funciona</span>
             </h2>
             <p className="text-base sm:text-lg text-earth-700 max-w-2xl mx-auto px-4">
-              Um processo completo de 12 semanas para reprogramação profunda e energética.
+              Um processo completo de 6 semanas para reprogramação profunda e energética.
             </p>
           </div>
 
@@ -655,7 +655,7 @@ export default function JornadaMantrasLanding() {
                 },
                 {
                   step: "6",
-                  title: "Recomendações extras",
+                  title: "Para aprofundar sua experiência",
                   description: "Como integrar as práticas no dia a dia e nas relações",
                 },
               ].map((item, index) => (
@@ -686,21 +686,35 @@ export default function JornadaMantrasLanding() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-6xl mx-auto">
-            {[1, 2, 3].map((item) => (
-              <Card key={item} className="border-0 shadow-lg bg-white/80 backdrop-blur-sm">
+            {[
+              {
+                nome: "Juliana Camacho",
+                inicial: "J",
+                depoimento: "Recomendo com a alegria de quem pode sentir em sua própria existência a diferença que essa poderosa ferramenta faz em nossas vidas."
+              },
+              {
+                nome: "Catiana Squinalli",
+                inicial: "C",
+                depoimento: "A jornada dos mantras me trouxe clareza e paz interior. Senti mudanças profundas já nas primeiras semanas."
+              },
+              {
+                nome: "Ana Paula Souza",
+                inicial: "A",
+                depoimento: "Nunca imaginei que palavras pudessem transformar tanto. Hoje me sinto mais leve, confiante e conectada comigo mesma."
+              }
+            ].map((item, idx) => (
+              <Card key={idx} className="border-0 shadow-lg bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-6 sm:p-8">
                   <div className="flex items-center mb-4">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-amber-200 to-orange-200 flex items-center justify-center mr-3 sm:mr-4 flex-shrink-0">
-                      <span className="text-amber-800 font-bold text-sm sm:text-base">M</span>
+                      <span className="text-amber-800 font-bold text-sm sm:text-base">{item.inicial}</span>
                     </div>
                     <div>
-                      <p className="font-semibold text-earth-900 text-sm sm:text-base">Maria S.</p>
-                      <p className="text-xs sm:text-sm text-earth-600">Praticante há 3 meses</p>
+                      <p className="font-semibold text-earth-900 text-sm sm:text-base">{item.nome}</p>
                     </div>
                   </div>
                   <p className="text-sm sm:text-base text-earth-700 italic leading-relaxed">
-                    "A jornada me trouxe uma clareza mental que eu nunca havia experimentado. Os mantras realmente
-                    criaram novos caminhos na minha mente."
+                    "{item.depoimento}"
                   </p>
                 </CardContent>
               </Card>
@@ -725,9 +739,9 @@ export default function JornadaMantrasLanding() {
 
               <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8 text-left max-w-md mx-auto">
                 {[
-                  "12 Encontros semanais com Asha",
-                  "12 Mantras canalizados ",
+                  "6 Encontros semanais com Asha",
                   "9 meditações guiadas de ativação",
+                  "12 Mantras canalizados ",
                   "Rituais de abertura e encerramento",
                   "Práticas de ativação e liberação",
                   "Grupo para trocas, apoio e integração",
@@ -769,7 +783,7 @@ export default function JornadaMantrasLanding() {
                 <div className="relative">
                   <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-2xl">
                     <img
-                      src="/placeholder.svg?height=320&width=320"
+                      src="/foto-LP.webp?height=320&width=320"
                       alt="Expert em Mantras e Transformação Consciente"
                       className="w-full h-full object-cover"
                     />
@@ -790,7 +804,7 @@ export default function JornadaMantrasLanding() {
 
                 <div className="space-y-4 text-sm sm:text-base text-earth-700 leading-relaxed">
                   <p>
-                    Há mais de 18 anos dedicada ao estudo da consciência humana e das tecnologias ancestrais de cura através de plantas enteógenas.
+                    Há mais de 20 anos dedicada ao estudo da consciência humana e das tecnologias ancestrais de cura através de plantas enteógenas.
                   </p>
 
                   <p>
@@ -899,7 +913,7 @@ export default function JornadaMantrasLanding() {
 
             <div className="text-earth-400 text-xs sm:text-sm">
               <p className="mb-2">Suporte: contato@cosmogenia.org</p>
-              <p>&copy; 2024 Jornada de Autoconhecimento – Mantras de Ativação. Todos os direitos reservados.</p>
+              <p>&copy; 2024 Cosmogenia Institute. Todos os direitos reservados.</p>
             </div>
           </div>
         </div>
