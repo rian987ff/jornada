@@ -37,12 +37,12 @@ const PROFILE_CONFIG = {
       icon: "sprout",
       description: "Acompanhamentos terapêuticos e vivências personalizadas. Esteja em contato.",
     },
-    // {
-    //   title: "LinkedIn",
-    //   url: "https://linkedin.com/in/seuusuario",
-    //   icon: "linkedin",
-    //   description: "Rede profissional",
-    // },
+    {
+      title: "Rosa Cósmica",
+      url: "https://forms.gle/29YkDhNF7ytUbePz7",
+      icon: "🌹",
+      description: "Retiro de Primavera. Saiba mais",
+    },
   ],
 
   // Links ocultos - descomente para ativar
@@ -310,7 +310,7 @@ export default function LinkTreePage() {
             <SpiralIcon className="w-4 h-4 text-amber-600 mr-2" />
             <p className="text-earth-600 text-sm font-medium">Transformação através da vibração consciente</p>
           </div>
-          <p className="text-earth-500 text-xs">© 2024 {PROFILE_CONFIG.name}. Todos os direitos reservados.</p>
+          <p className="text-earth-500 text-xs">© 2025 {PROFILE_CONFIG.name}. Todos os direitos reservados.</p>
         </div>
       </div>
     </div>
