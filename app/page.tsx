@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import {
   Globe,
   Github,
-  Linkedin,
+  Flower2,
   Twitter,
   Instagram,
   Mail,
