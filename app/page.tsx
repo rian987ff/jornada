@@ -25,6 +25,12 @@ const PROFILE_CONFIG = {
 
   // Links ativos - apenas 3 inicialmente
   links: [
+        {
+      title: "Retiro Rosa Cósmica",
+      url: "https://forms.gle/29YkDhNF7ytUbePz7",
+      icon: "Flower2",
+      description: "Vivência de Primavera para Mulheres de 18 a 21 de setembro de 2025. Saiba mais",
+    },
     {
       title: "Jornada Mantras de Ativação",
       url: "https://www.cosmogenia.org/mantras",
@@ -36,12 +42,6 @@ const PROFILE_CONFIG = {
       url: "https://wa.me/5547997554304?text=Oi%2C+Asha.+Tenho+interesse+em+um+atendimento+individual+e+gostaria+de+entender+como+funciona.",
       icon: "sprout",
       description: "Acompanhamentos terapêuticos e vivências personalizadas. Esteja em contato.",
-    },
-    {
-      title: "Rosa Cósmica",
-      url: "https://forms.gle/29YkDhNF7ytUbePz7",
-      icon: "flower",
-      description: "Retiro de Primavera para Mulheres de 18 a 21 de setembro de 2025. Saiba mais",
     },
   ],
 
@@ -120,7 +120,7 @@ function LinkIcon({ iconName, className = "w-5 h-5" }: { iconName: string; class
   const icons = {
     globe: Globe,
     github: Github,
-    linkedin: Linkedin,
+     flower: Flower2,
     twitter: Twitter,
     instagram: Instagram,
     mail: Mail,
