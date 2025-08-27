@@ -40,8 +40,8 @@ const PROFILE_CONFIG = {
     {
       title: "Rosa Cósmica",
       url: "https://forms.gle/29YkDhNF7ytUbePz7",
-      icon: "🌹",
-      description: "Retiro de Primavera. Saiba mais",
+      icon: "flower",
+      description: "Retiro de Primavera para Mulheres de 18 a 21 de setembro de 2025. Saiba mais",
     },
   ],
 
