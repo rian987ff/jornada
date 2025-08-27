@@ -120,7 +120,7 @@ function LinkIcon({ iconName, className = "w-5 h-5" }: { iconName: string; class
   const icons = {
     globe: Globe,
     github: Github,
-     flower: Flower2,
+    flower: Flower2,
     twitter: Twitter,
     instagram: Instagram,
     mail: Mail,
