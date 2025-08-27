@@ -28,7 +28,7 @@ const PROFILE_CONFIG = {
         {
       title: "Retiro Rosa Cósmica",
       url: "https://forms.gle/29YkDhNF7ytUbePz7",
-      icon: "Flower2",
+      icon: "flower",
       description: "Vivência de Primavera para Mulheres de 18 a 21 de setembro de 2025. Saiba mais",
     },
     {
