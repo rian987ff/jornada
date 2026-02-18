@@ -20,26 +20,26 @@ const PROFILE_CONFIG = {
   // Informações do perfil
   name: "Asha",
   verified: true, // true para mostrar o ícone de verificação
-  bio: "Terapeuta integrativa, Guardiã de medicinas ancestrais e canalizadora da Cosmogenia — filosofia de vida, método terapêutico e caminho iniciático.",
+  bio: "Terapeuta integrativa, escritora, guardiã de santuários naturais e canalizadora da Medicina vibracional Om Raya  — filosofia de vida, método terapêutico e caminho iniciático.",
   avatar: "/foto-LT.webp", // URL da sua foto de perfil
 
   // Links ativos - apenas 3 inicialmente
   links: [
-        {
+    {
       title: "Retiro Rosa Cósmica",
       url: "https://forms.gle/29YkDhNF7ytUbePz7",
       icon: "flower",
-      description: "Vivência de Primavera para Mulheres de 18 a 21 de setembro de 2025. Saiba mais",
+      description: "Vivência de Equinócio de Outono para Mulheres de 19 a 22 de março de 2026. Saiba mais",
     },
     {
       title: "Jornada Mantras de Ativação",
       url: "https://www.cosmogenia.org/mantras",
       icon: "sparkles",
-      description: "Mantras, meditações e práticas em 6 semanas de reconexão. Comece sua jornada.",
+      description: "Mantras, meditações e práticas em 12 semanas de reconexão. Comece sua jornada.",
     },
     {
-      title: "Atendimentos Individuais",
-      url: "https://wa.me/5547997554304?text=Oi%2C+Asha.+Tenho+interesse+em+um+atendimento+individual+e+gostaria+de+entender+como+funciona.",
+      title: "Atendimento individual",
+      url: "https://www.cosmogenia.org/atendimento",
       icon: "sprout",
       description: "Acompanhamentos terapêuticos e vivências personalizadas. Esteja em contato.",
     },
@@ -310,7 +310,7 @@ export default function LinkTreePage() {
             <SpiralIcon className="w-4 h-4 text-amber-600 mr-2" />
             <p className="text-earth-600 text-sm font-medium">Transformação através da vibração consciente</p>
           </div>
-          <p className="text-earth-500 text-xs">© 2025 {PROFILE_CONFIG.name}. Todos os direitos reservados.</p>
+          <p className="text-earth-500 text-xs">© 2026 {PROFILE_CONFIG.name}. Todos os direitos reservados.</p>
         </div>
       </div>
     </div>

@@ -492,7 +492,7 @@ export default function JornadaMantrasLanding() {
             </h1>
 
             <p className="text-lg sm:text-xl md:text-2xl text-earth-700 mb-6 sm:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
-              Transforme sua vida com palavras que libertam, curam e ativam. 
+              Transforme sua vida com palavras que libertam, curam e ativam.
             </p>
 
             <div className="mb-8 sm:mb-12 px-4">
@@ -628,7 +628,7 @@ export default function JornadaMantrasLanding() {
               Como <span className="text-amber-700">funciona</span>
             </h2>
             <p className="text-base sm:text-lg text-earth-700 max-w-2xl mx-auto px-4">
-              Um processo completo de 6 semanas para reprogramação profunda e energética.
+              Um processo completo de 12 semanas para reprogramação profunda e energética.
             </p>
           </div>
 
@@ -740,13 +740,13 @@ export default function JornadaMantrasLanding() {
 
             <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-3xl p-6 sm:p-8 md:p-12 shadow-xl border border-amber-100">
               <div className="mb-6 sm:mb-8">
-                <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-amber-700 mb-2">R$ 360</div>
+                <div className="text-4xl sm:text-5xl md:text-6xl font-bold text-amber-700 mb-2">R$ 540,00</div>
                 <p className="text-earth-600 text-sm sm:text-base">A jornada é sua, para sempre.</p>
               </div>
 
               <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8 text-left max-w-md mx-auto">
                 {[
-                  "6 Encontros semanais com Asha",
+                  "12 Encontros semanais com Asha",
                   "9 meditações guiadas de ativação",
                   "12 Mantras canalizados ",
                   "Rituais de abertura e encerramento",
@@ -925,8 +925,7 @@ export default function JornadaMantrasLanding() {
             </div> */}
 
             <div className="text-earth-400 text-xs sm:text-sm">
-              <p className="mb-2">Suporte: contato@cosmogenia.org</p>
-              <p>&copy; 2024 Cosmogenia Institute. Todos os direitos reservados.</p>
+              <p>&copy; 2026 Cosmogenia Institute. Todos os direitos reservados.</p>
             </div>
           </div>
         </div>
