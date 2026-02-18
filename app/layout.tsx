@@ -15,16 +15,16 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Meus Links - Transformação Digital Consciente",
+  title: "Cosmogenia - Transformação através da vibração consciente",
   description:
-    "Todos os meus projetos e links importantes em um só lugar. Conectando tecnologia e desenvolvimento pessoal através de experiências transformadoras.",
+    "MEDICINA VIBRACIONAL ✨ OM RAYA",
   keywords: "links, transformação digital, desenvolvimento pessoal, projetos conscientes, mantras, neuroplasticidade",
   openGraph: {
-    title: "Meus Links - Transformação Digital Consciente",
-    description: "Projetos que conectam tecnologia e consciência",
+    title: "Cosmogenia - Transformação através da vibração consciente",
+    description: "MEDICINA VIBRACIONAL ✨ OM RAYA",
     type: "website",
   },
-    generator: 'v0.dev'
+  generator: 'Altrion Solutions'
 }
 
 export default function RootLayout({
